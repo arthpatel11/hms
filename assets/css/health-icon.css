@@ -1,0 +1,136 @@
+@font-face {
+    font-display: auto;
+    font-family: "health-icon";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../webfonts/iconly.eot?1709878963281");
+    src: url("../webfonts/iconly.eot?#iefix") format("embedded-opentype"), url("../webfonts/iconly.woff2?1709878963281") format("woff2"), url("../webfonts/iconly.woff?1709878963281") format("woff"), url("../webfonts/iconly.ttf?1709878963281") format("truetype"), url("../webfonts/iconly.svg?1709878963281#health") format("svg");
+}
+
+[class="health-icon"],
+[class^="health-icon-"],
+[class*=" health-icon-"] {
+    display: inline-block;
+    font-family: "health-icon" !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.health-icon-transfer:before {
+    content: "\e000";
+}
+
+.health-icon-report:before {
+    content: "\e001";
+}
+
+.health-icon-preview-form:before {
+    content: "\e002";
+}
+
+.health-icon-patient:before {
+    content: "\e003";
+}
+
+.health-icon-other-staff:before {
+    content: "\e004";
+}
+
+.health-icon-operation-form:before {
+    content: "\e005";
+}
+
+.health-icon-operation-appointment:before {
+    content: "\e006";
+}
+
+.health-icon-nurse:before {
+    content: "\e007";
+}
+
+.health-icon-inventory-managment:before {
+    content: "\e008";
+}
+
+.health-icon-home:before {
+    content: "\e009";
+}
+
+.health-icon-doctor:before {
+    content: "\e00a";
+}
+
+.health-icon-department:before {
+    content: "\e00b";
+}
+
+.health-icon-billing:before {
+    content: "\e00c";
+}
+
+.health-icon-bed:before {
+    content: "\e00d";
+}
+
+.health-icon-arrow-up:before {
+    content: "\e00e";
+}
+
+.health-icon-arrow-right:before {
+    content: "\e00f";
+}
+
+.health-icon-arrow-left:before {
+    content: "\e010";
+}
+
+.health-icon-arrow-down:before {
+    content: "\e011";
+}
+
+.health-icon-appointment:before {
+    content: "\e012";
+}
+
+.health-icon-chevron-up:before {
+    content: "\e013";
+}
+
+.health-icon-chevron-right:before {
+    content: "\e014";
+}
+
+.health-icon-chevron-left:before {
+    content: "\e015";
+}
+
+.health-icon-chevron-down:before {
+    content: "\e016";
+}
+
+.health-icon-double-chevron-up:before {
+    content: "\e017";
+}
+
+.health-icon-double-chevron-right:before {
+    content: "\e018";
+}
+
+.health-icon-double-chevron-left:before {
+    content: "\e019";
+}
+
+.health-icon-double-chevron-down:before {
+    content: "\e01a";
+}
+.health-icon-user:before {
+    content: "\e01b";
+}
+.health-icon-lock:before {
+    content: "\e01c";
+}

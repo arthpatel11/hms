@@ -1,0 +1,309 @@
+@media (1600px <=width <=1800px) {
+    .dashboard-rightside {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}
+
+@media screen and (width <=1599px) {
+    .dashboard-leftside {
+        width: 380px;
+    }
+    .dashboard-rightside {
+        width: calc(100% - 400px);
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .login-image {
+        max-width: 75%;
+    }
+}
+
+@media screen and (width <=1399px) {
+    .dashboard-leftside {
+        width: 320px;
+    }
+    .dashboard-rightside {
+        width: calc(100% - 340px);
+        grid-gap: 10px;
+    }
+    .dashboard-profile-row .profile-image {
+        width: 50px;
+        height: 50px;
+    }
+    .dashboard-profile-row>aside {
+        font-size: 20px;
+    }
+    .dashboard-profile-row>aside span {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (width <=1199px) {
+    .dashboard-row {
+        gap: 10px;
+    }
+    .dashboard-leftside {
+        width: 100%;
+    }
+    .dashboard-rightside {
+        width: 100%;
+    }
+    .new-patient-leftside {
+        top: 0;
+    }
+    .new-patient-leftside,
+    .new-patient-rightside {
+        width: 100%;
+    }
+    .new-patient-v-tabs {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .new-patient-v-tabs>* {
+        flex-shrink: 0;
+    }
+    .comn-modal .modal-dialog {
+        max-width: 97%;
+    }
+    .comn-discharge-list>li>span {
+        flex: 0 0 200px;
+    }
+    .profile-row-leftside,
+    .profile-row-rightside {
+        width: 100%;
+    }
+}
+
+@media screen and (width <=991px) {
+    .esystem-sidebar-bg {
+        overflow: hidden;
+    }
+    .esystem-sidebar-bg::before {
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 70%);
+        overflow: hidden;
+    }
+    .esystem-sidebar {
+        left: -100%;
+        transition: var(--transition);
+    }
+    .esystem-sidebar-open {
+        left: 0;
+    }
+    .sidebar-list {
+        height: calc(100vh - 207px);
+    }
+    .logout-btn,
+    .sidebar-list>li a {
+        padding: 12px 10px;
+    }
+    .esystem-main {
+        width: 100%;
+        padding: 20px;
+    }
+    .sidebar-close-btn,
+    .sidebar-open-btn {
+        display: inline-flex;
+    }
+    .comn-header {
+        padding: 15px 20px;
+    }
+    .comn-table-header-rightside .comn-form-control {
+        width: 250px;
+    }
+    .file-view-modal .modal-dialog {
+        margin-inline: 30px;
+    }
+    .login-container>* {
+        width: 100%;
+    }
+    .login-leftside-row {
+        padding: 100px 50px;
+    }
+    .login-image-box {
+        gap: 50px;
+    }
+}
+
+@media screen and (width <=767px) {
+    .sidebar-close-btn {
+        width: 24px;
+        height: 24px;
+        top: 5px;
+        right: 5px;
+    }
+    .esystem-sidebar {
+        padding-bottom: 10px;
+    }
+    .sidebar-list {
+        height: calc(100vh - 197px);
+    }
+    .esystem-main {
+        padding: 0;
+        border-radius: 0px;
+    }
+    .esystem-body {
+        padding: 10px;
+        border-radius: 0px;
+        height: auto;
+    }
+    .comn-header {
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .comn-page-title {
+        font-size: 16px;
+    }
+    .comn-header-rightside {
+        gap: 10px;
+    }
+    .sidebar-open-btn,
+    .profile-image,
+    .noti-btn {
+        width: 34px;
+        height: 34px;
+    }
+    .sidebar-open-btn svg {
+        width: 18px;
+        height: 18px;
+    }
+    .noti-btn>span {
+        width: 5px;
+        height: 5px;
+        right: 11px;
+    }
+    .comn-table-header-rightside {
+        gap: 10px;
+    }
+    .comn-pagination {
+        gap: 5px;
+    }
+    .comn-pagination li a {
+        width: 28px;
+        height: 28px;
+    }
+    .comn-table-btn-row {
+        gap: 5px;
+    }
+    .comn-modal .modal-content {
+        padding: 15px;
+    }
+    .comn-modal-close svg {
+        width: 22px;
+        height: 22px;
+    }
+    .new-patient-row {
+        gap: 10px;
+    }
+    .new-patient-leftside .comn-box {
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .new-patient-v-tabs .nav-link {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .comn-modal .modal-body img {
+        max-height: 55vh;
+    }
+    .comn-form-control-row>* {
+        flex-basis: 200px;
+    }
+}
+
+@media screen and (width <=575px) {
+    .comn-btn {
+        min-width: auto;
+    }
+    .comn-box {
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    .comn-box-height {
+        height: calc(100% - 15px);
+    }
+    .file-view-modal .modal-dialog {
+        margin-inline: 10px;
+    }
+    .comn-text-control-list {
+        gap: 20px;
+    }
+    .comn-discharge-list>li,
+    .comn-text-control-list>li {
+        flex-wrap: wrap;
+    }
+    .comn-discharge-list>li>span,
+    .comn-text-control-list>li>span,
+    .list-check-control-row {
+        min-height: auto;
+        flex-basis: 100%;
+    }
+    .comn-discharge-list>li {
+        gap: 5px;
+    }
+    .comn-form-control-bill-row .comn-form-group {
+        margin-bottom: 0;
+    }
+    .comn-form-control-bill-row>* {
+        flex-basis: 100%;
+    }
+    .login-rightside,
+    .login-leftside-row {
+        padding: 60px 30px;
+    }
+    .login-leftside-row {
+        border-bottom-right-radius: 50px;
+    }
+    .login-rightside {
+        border-top-left-radius: 50px;
+    }
+    .login-title span {
+        font-size: 14px;
+    }
+    .login-title {
+        font-size: 28px;
+        line-height: 22px;
+    }
+    .login-logo {
+        max-height: 40px;
+    }
+    .login-image {
+        max-width: 90%;
+    }
+    .profile-image-box {
+        width: 80px;
+        height: 80px;
+    }
+    .profile-image-box>label {
+        width: 25px;
+        height: 25px;
+    }
+    .profile-row-leftside>aside {
+        font-size: 18px;
+    }
+}
+
+
+/* ==========================================================
+
+------------------- Patient Responsive CSS Start Here ------------------
+
+========================================================== */
+
+@media screen and (width <=575px) {
+    .patient-dashboard-row .dashboard-rightside,
+    .patient-dashboard-row .dashboard-leftside {
+        width: 100%;
+    }
+    .patient-dashboard-row .comn-box {
+        margin-bottom: 0;
+    }
+}
